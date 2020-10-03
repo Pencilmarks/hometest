@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  text-transform: none; }
+
+a {
+  text-decoration: none;
+  color: #383838; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #252b33;
+  clear: both;
+  margin: 2em 0 0px;
+  font-weight: 300;
+  font-family: "Bebas Neue", "Open Sans"; }
+
+h1 {
+  font-size: 3.5em; }
+
+h2 {
+  font-size: 3em;
+  margin: 1em 0 5px; }
+
+h3 {
+  font-size: 1.75em; }
+
+h4 {
+  font-size: 1.5em; }
+
+h5 {
+  font-size: 1.25em; }
+
+h6 {
+  font-size: 1em; }
