@@ -1,18 +1,42 @@
-$color: green;
+//colours
+$teal: #009586;
+$black: #2b2b2b;
+$grey: #e2e2e2;
+$white: #ffffff;
+
+//fonts
+$mainfont:'Mulish',
+sans-serif;
+$secondfont: 'Satisfy',
+cursive;
+
+// *,
+// *:before,
+// *:after {
+//   box-sizing: border-box;
+// }
 
 body {
-  margin: 0;
-  padding: 0;
+
   background-color: #fff;
-  font-family: "Open Sans", sans-serif;
+  font-family: $mainfont;
   font-weight: 300;
   font-style: normal;
+  font-size: 1em;
+  margin: 0;
+  padding: 0;
   text-transform: none;
+
 }
 
 a {
+
+  color: $teal;
+  font-size: 16px;
+  font-family: $mainfont;
+  font-weight: 600;
+  line-height: 25px;
   text-decoration: none;
-  color: #383838;
 }
 
 h1,
@@ -21,34 +45,53 @@ h3,
 h4,
 h5,
 h6 {
-  color: #252b33;
+  color: $black;
   clear: both;
-  margin: 2em 0 0px;
-  font-weight: 300;
-  font-family: "Bebas Neue", "Open Sans";
+  font-family: $mainfont;
+}
+
+h1,
+h2 {
+  line-height: 50px;
+  font-family: $secondfont;
+  font-weight: normal;
+
 }
 
 h1 {
-  font-size: 3.5em;
+  font-size: 36px;
 }
 
 h2 {
-  font-size: 3em;
-  margin: 1em 0 5px;
+  font-size: 32px;
+
 }
 
 h3 {
-  font-size: 1.75em;
+  font-size: 22px;
+  font-weight: 600;
 }
 
 h4 {
-  font-size: 1.5em;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 
 h5 {
-  font-size: 1.25em;
+  color: $teal;
+  font-size: 16px;
+  font-family: $mainfont;
+  font-weight: 600;
+  line-height: 25px;
+  text-decoration: none;
 }
 
-h6 {
-  font-size: 1em;
+p {
+  font-family: $mainfont;
+  font-size: 13px;
+  font-family: $mainfont;
+  font-weight: 600;
+  line-height: 21px;
+
 }
